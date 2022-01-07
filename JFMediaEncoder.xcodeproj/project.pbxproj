@@ -17,6 +17,7 @@
 		A6EB32B326241E7A00AF4E7C /* JFMediaEncoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB32B226241E7A00AF4E7C /* JFMediaEncoderUITests.m */; };
 		A6EB32D12624202600AF4E7C /* JFVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB32CE2624202500AF4E7C /* JFVideoCapture.m */; };
 		A6EB32D22624202600AF4E7C /* JFVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB32CF2624202600AF4E7C /* JFVideoEncoder.m */; };
+		A6EB32EF26245B6000AF4E7C /* JFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB32EE26245B6000AF4E7C /* JFPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		A6EB32CE2624202500AF4E7C /* JFVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVideoCapture.m; sourceTree = "<group>"; };
 		A6EB32CF2624202600AF4E7C /* JFVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFVideoEncoder.m; sourceTree = "<group>"; };
 		A6EB32D02624202600AF4E7C /* JFVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFVideoEncoder.h; sourceTree = "<group>"; };
+		A6EB32ED26245B6000AF4E7C /* JFPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFPerson.h; sourceTree = "<group>"; };
+		A6EB32EE26245B6000AF4E7C /* JFPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A6EB329926241E7A00AF4E7C /* LaunchScreen.storyboard */,
 				A6EB329C26241E7A00AF4E7C /* Info.plist */,
 				A6EB329D26241E7A00AF4E7C /* main.m */,
+				A6EB32ED26245B6000AF4E7C /* JFPerson.h */,
+				A6EB32EE26245B6000AF4E7C /* JFPerson.m */,
 			);
 			path = JFMediaEncoder;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EB32EF26245B6000AF4E7C /* JFPerson.m in Sources */,
 				A6EB329326241E7800AF4E7C /* ViewController.m in Sources */,
 				A6EB328D26241E7800AF4E7C /* AppDelegate.m in Sources */,
 				A6EB32D22624202600AF4E7C /* JFVideoEncoder.m in Sources */,
